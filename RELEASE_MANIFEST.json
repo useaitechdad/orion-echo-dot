@@ -1,0 +1,378 @@
+{
+  "excluded_categories": [
+    "credentials",
+    "device images",
+    "compiled executables",
+    "recordings",
+    "personal models and features",
+    "runtime libraries"
+  ],
+  "files": {
+    ".gitignore": {
+      "bytes": 350,
+      "sha256": "02557a30a44e9cf55edfa548935369bd43ddea35dee733d8d606969195c47ee0"
+    },
+    "ARCHITECTURE.md": {
+      "bytes": 4986,
+      "sha256": "fb6a415396d44828785c466f5f25c43b014f25a68158ced2bcab17bd02e50cd6"
+    },
+    "LESSONS_LEARNED.md": {
+      "bytes": 6020,
+      "sha256": "3b9f98e3f8d99752f0a1fd036c524d7680e60a2b2d66a48f0f2aa9930810d634"
+    },
+    "LICENSE": {
+      "bytes": 1075,
+      "sha256": "0dbde30ded232033232e57a8d92f2a850049ce5e72bec5b5082dd53712ac3611"
+    },
+    "LICENSES/Apache-2.0.txt": {
+      "bytes": 13575,
+      "sha256": "71c6915d04265772a0339bed47276942c678b45cc01534210ebe6984fd1aec65"
+    },
+    "LICENSES/kissfft-BSD-3-Clause.txt": {
+      "bytes": 1476,
+      "sha256": "49eea0111dfb7038dc18f74034cc517690395ebac8f7768f999133b16e4bf064"
+    },
+    "PHASE1.md": {
+      "bytes": 7761,
+      "sha256": "88151598a98b383a904f0550b1595229cda60ca59980519e5c4c302d66678330"
+    },
+    "README.md": {
+      "bytes": 3491,
+      "sha256": "093157a454c1bab29c17f2086d0faa0dcf72ab46f563ee4360897a2e5d09f483"
+    },
+    "SETUP.md": {
+      "bytes": 12267,
+      "sha256": "19f487433b79e85464987917e7e8965bab48992f3bbf96fe256f8c82d56b2df2"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 1299,
+      "sha256": "8360aab9b5063e42e2deec2dd2859477b1ed8578669f810591b50c371d34e420"
+    },
+    "assets/wake/LICENSE.pocketsphinx": {
+      "bytes": 6697,
+      "sha256": "1c3b5c5529d7360c927aa034eea28010c59558c1f67fb722d8d8b5d69cb98a23"
+    },
+    "assets/wake/en-us/README": {
+      "bytes": 1617,
+      "sha256": "8b88de980568509c646d0527b8414beef136964391903b40996d32f737bf752e"
+    },
+    "assets/wake/en-us/feat.params": {
+      "bytes": 164,
+      "sha256": "c982c5f75e2a30c34d2c9ef1f6b129a5a00e67e3e927565076b58664cc2404c9"
+    },
+    "assets/wake/en-us/mdef": {
+      "bytes": 2959176,
+      "sha256": "2360f9a86889c1cfee8bd618a0269387911e5fb2920a594f506b18b8c79683b0"
+    },
+    "assets/wake/en-us/means": {
+      "bytes": 838732,
+      "sha256": "832019e32cac12eb318964f96f469034acb12d0348eeddc3831831a100cb4dd4"
+    },
+    "assets/wake/en-us/noisedict": {
+      "bytes": 56,
+      "sha256": "7295b07df2c204c4f87c6782b6be1a3859d7006d4e3864181c955d6dab105a33"
+    },
+    "assets/wake/en-us/sendump": {
+      "bytes": 1969024,
+      "sha256": "8c9564c0d5bef69ca9d9bf1014abe162f071644cf02cf1fa8a483c3dc165a7a8"
+    },
+    "assets/wake/en-us/transition_matrices": {
+      "bytes": 2080,
+      "sha256": "c1f7f28ea43177be734be1f88bd7f1b9a853d0e660f8599c67c6eaeca8bb539a"
+    },
+    "assets/wake/en-us/variances": {
+      "bytes": 838732,
+      "sha256": "b00d696f85e96834fc10f8e5f06428d8c4db6bffdbe5845b6f69bf6efbc48fa5"
+    },
+    "assets/wake/wake.dict": {
+      "bytes": 73,
+      "sha256": "b9fce277887092408b1c879c6ca5ce0c738e0b7329d565ba37b89d6eeed39bd0"
+    },
+    "assets/wake/wake.kws": {
+      "bytes": 36,
+      "sha256": "9d78d798dbfdcd87720c1b832b1e6046052af072b86cf8d12363a6b8ab3faa42"
+    },
+    "cmd/dotty_calibrate/main.go": {
+      "bytes": 3744,
+      "sha256": "0a75a02f5f5cf76ded1ab1762a4574229d9d24875f951af93ed46d6ea0b25567"
+    },
+    "cmd/dotty_calibrate/recording.go": {
+      "bytes": 991,
+      "sha256": "5c94239e6ba294196d5b391bad16bc96d90c6fb1711ea4194c706a266c75bb66"
+    },
+    "cmd/dotty_calibrate/recording_test.go": {
+      "bytes": 1319,
+      "sha256": "b696750e720263a49a20ce23c5c348c93ea5e849081cfb049e1b2ae8a6c0e0a6"
+    },
+    "cmd/dotty_probe/main.go": {
+      "bytes": 1270,
+      "sha256": "47bd6cb3635adeedae40ee44bcd63b43f7de3f891c7c7d3174bbb0540f850568"
+    },
+    "cmd/dottyd/child_linux.go": {
+      "bytes": 255,
+      "sha256": "5879fb7a3b8d3258c9bf59b7eca1225e99400c972c499f58f67bf9400834cab8"
+    },
+    "cmd/dottyd/child_other.go": {
+      "bytes": 150,
+      "sha256": "b39a0569271f92a30e36b080d0ab46bc7012b8e98432ed4b2cc32689eae4275c"
+    },
+    "cmd/dottyd/gate.go": {
+      "bytes": 681,
+      "sha256": "cd892b73b59d451a05f8957a88a9c8bf4b1cf52db87a10eced53b276fc60d07d"
+    },
+    "cmd/dottyd/hardware.go": {
+      "bytes": 8203,
+      "sha256": "b86854518b6d9874aeeab2b54f629edcf96170e020cc25ab9c7684f39d993876"
+    },
+    "cmd/dottyd/led_test.go": {
+      "bytes": 1924,
+      "sha256": "52bd7a788fc5c42658e2fb6d1d46e23b4f217b049e7fd6c6e2434198d40a6e55"
+    },
+    "cmd/dottyd/main.go": {
+      "bytes": 23319,
+      "sha256": "c796c30c8755f8e88b2b8c8f9ea1a8658c556d50b8b6127e150524c2d7efb9bf"
+    },
+    "cmd/dottyd/main_test.go": {
+      "bytes": 1026,
+      "sha256": "c026d3dfe52e72596ff743ebaf4d59b6edbe08e3b3368b42c6dca69a3df4d934"
+    },
+    "cmd/dottyd/network.go": {
+      "bytes": 1300,
+      "sha256": "f9ca17464c97c984c7a7d8a2921058c894bb252d7986b9815603162c6a138815"
+    },
+    "cmd/dottyd/privacy.go": {
+      "bytes": 1174,
+      "sha256": "340bbf569217c8943cb25148332beef746bce5f7a9e52f9c143cd00f2adbc6a0"
+    },
+    "cmd/dottyd/privacy_test.go": {
+      "bytes": 1982,
+      "sha256": "89d66c654ab08681633a0b9702a66ac2b6c66c980ee1c2eb25c6cda089e1a935"
+    },
+    "cmd/dottyd/recovery.go": {
+      "bytes": 6147,
+      "sha256": "cea469f139e6dac3c4d5c1de4b1ef54e0fd36774f85418ae849edee4c46e8d37"
+    },
+    "cmd/dottyd/recovery_test.go": {
+      "bytes": 7735,
+      "sha256": "9608bd6a42f5c539091ea2d39dd782c580a59db4f9974ec45b30c95e57b4eb20"
+    },
+    "cmd/dottyd/session_test.go": {
+      "bytes": 4208,
+      "sha256": "29723c4f8aff4d22c8c289b01bc5759450b086eaa8fe9cc7a61eb05c4d04d199"
+    },
+    "cmd/dottyd/supervisor.go": {
+      "bytes": 4184,
+      "sha256": "d11a2b60c40acb146842440b6f0411759258eb3edbce5ebf34fa1876963b4620"
+    },
+    "cmd/dottyd/tinyplay.go": {
+      "bytes": 2869,
+      "sha256": "ca0d39d6ab1b330c1c6600aab340778704238efd39a8eb9aacdcc742cf1cf0d7"
+    },
+    "cmd/dottyd/wake.go": {
+      "bytes": 4644,
+      "sha256": "1e788354c8cd465a3ebdf93003ee6e76798c8a9bb030bbf8593baa8b324ccffd"
+    },
+    "cmd/dottyd/wake_test.go": {
+      "bytes": 2781,
+      "sha256": "398bde3fd1604adf0f1d06ff04f55c325d6f511b3961fd12103d41dd0a592683"
+    },
+    "go.mod": {
+      "bytes": 69,
+      "sha256": "811061816adf6fc54936496feb4f02a867ca597b4a32f7844200e46d60c7c303"
+    },
+    "go.sum": {
+      "bytes": 175,
+      "sha256": "1737d5523b7264df09b253e86e29f96af295a7bd18e0aaa4373c6099317e065f"
+    },
+    "internal/audio/device_linux_arm.go": {
+      "bytes": 6022,
+      "sha256": "e49f74a82bcd522a3cd24a4114780ebfbb6b21151a2126064e211b0863a6af91"
+    },
+    "internal/audio/device_other.go": {
+      "bytes": 503,
+      "sha256": "fb39bf41b8913263a56c66f6b07548655764ef09117b746ef82653bf896a5f98"
+    },
+    "internal/audio/led_linux_arm.go": {
+      "bytes": 1052,
+      "sha256": "a7fb0b136ede9e67931dfe22d31b93877edeb459be969a468d7b3bf25e6d95c9"
+    },
+    "internal/audio/led_other.go": {
+      "bytes": 262,
+      "sha256": "15488e1d6e916c3be5725b5eb56ef8ae3df0014d384d1e42bc37923750062ef3"
+    },
+    "internal/audio/microphones.go": {
+      "bytes": 886,
+      "sha256": "fde444ac338b118aa38caacbbe9fbac49e3994be3d2bda4ee32e15d9b4398b6c"
+    },
+    "internal/audio/pcm.go": {
+      "bytes": 2858,
+      "sha256": "42ab0172717c1f095133e06e36137ea11f9b4d342a4ea25df30d05867b0cc6a5"
+    },
+    "internal/audio/pcm_test.go": {
+      "bytes": 1739,
+      "sha256": "920c86125311063f18a69ff3c8a0ff0478e1f4b7d8f597f73e58569000b4b080"
+    },
+    "internal/live/client.go": {
+      "bytes": 3348,
+      "sha256": "8885b341ac5cd2727b9101540c315464ca33e38f7af6cdb2e386ed1256229778"
+    },
+    "internal/live/client_test.go": {
+      "bytes": 2033,
+      "sha256": "fa4fb94df54a00532694a877e698732912f5974bdb3eca3028cb09678dafa4d7"
+    },
+    "internal/live/key.go": {
+      "bytes": 790,
+      "sha256": "8010367baccaf7ccb5f94aa47e0ad374c60f83fcc9e39d9fd7734c41e5577f93"
+    },
+    "internal/live/transport.go": {
+      "bytes": 3603,
+      "sha256": "178c01ef8b9c4fbdd92cc657866b5605f96ae8828f9a500246637eedd6ed0761"
+    },
+    "internal/privacy/privacy.go": {
+      "bytes": 586,
+      "sha256": "49621c55f718411d673edf3ab0911dac917103ed94a2dfa3ea6bf4fd95a9beaa"
+    },
+    "internal/wake/detector.go": {
+      "bytes": 2373,
+      "sha256": "7c76ddfc2f7be5d85960b38919ff6068c4bb397488b3e550bea1f8670e8d3505"
+    },
+    "internal/wake/detector_test.go": {
+      "bytes": 1117,
+      "sha256": "7fe56b2463c3350af99a51f5ff705f3f5889d038e13b26e696c7667d1fb8cb04"
+    },
+    "native/microwake/README.md": {
+      "bytes": 10093,
+      "sha256": "370881a27a3a16f3864ef18a5b786b58837c73a9e80d8f6f9557561eeae9431e"
+    },
+    "native/microwake/dotty-wake": {
+      "bytes": 521,
+      "sha256": "ed868765af66d6463632102d7d323fbb9678df3195966c27fab2e86494a38c60"
+    },
+    "native/microwake/main.cc": {
+      "bytes": 7518,
+      "sha256": "0931721e7a470935bd1aa5d195c209a1043123d9cdbeae70cf6339784841978a"
+    },
+    "native/microwake/tflite_abi.h": {
+      "bytes": 1840,
+      "sha256": "129b422b0f8a527df14438ab7c584aa50dfc572a13ad7dd80d6b6331a34d94a1"
+    },
+    "native/wake/main.c": {
+      "bytes": 4415,
+      "sha256": "70383d274f576ce4e0e45d7a01e1954c381b770ab03857604269ab67289ef299"
+    },
+    "scripts/audio-play.sh": {
+      "bytes": 541,
+      "sha256": "ae9dcfcd5b6b96bce4271cfbaa66dfafd142a8e058c75ab13dda5745e3c46710"
+    },
+    "scripts/audio-prepare.sh": {
+      "bytes": 805,
+      "sha256": "e8a06258b8705534f622823139dcaed95c989f8a5921b8557bc88841e87022b8"
+    },
+    "scripts/audio-snapshot.sh": {
+      "bytes": 1347,
+      "sha256": "5215ec1823e3db40d3b89de8497fc5d06e4fffc60ab8770dc3f6486cb1fa6997"
+    },
+    "scripts/build-microwake.py": {
+      "bytes": 2334,
+      "sha256": "0ee771e111d26835bb1b73a7e4907961140681c58ec6d6a7377f6429c9400ebd"
+    },
+    "scripts/build-wake.sh": {
+      "bytes": 2675,
+      "sha256": "8a2d09f3a2b77887a2f427d96335b9f2b160abb2cfc60b0b74e46e28ff8f5902"
+    },
+    "scripts/build.sh": {
+      "bytes": 634,
+      "sha256": "97ebafce286446c561175e61bfebbd0ae2730acb4fa4decdc862829c86e91290"
+    },
+    "scripts/check.sh": {
+      "bytes": 604,
+      "sha256": "17ae40754b31f93af8620462d83af26606533bb2ab7f641b8405a491dec50fe2"
+    },
+    "scripts/dotty-config.example": {
+      "bytes": 719,
+      "sha256": "c8301b3b54085fd56727498a051fcf1d6c010fe3022c48f7d8682e5062785974"
+    },
+    "scripts/dotty_init.sh": {
+      "bytes": 2594,
+      "sha256": "2ec9e988180549d40aae10632c67c62f240ed086400125fb6da14bb2d6e67f50"
+    },
+    "scripts/test-microwake.py": {
+      "bytes": 3592,
+      "sha256": "5eddaa41d7d2ff273c9116833837882e1790389be46340e21dba86666e13b9b3"
+    },
+    "scripts/test-wake-idle.py": {
+      "bytes": 3484,
+      "sha256": "8c1b8a731323db1ee06193642ec989e809665ca0afaf7ba6d89e06d21a36712e"
+    },
+    "training/microwakeword/README.md": {
+      "bytes": 13452,
+      "sha256": "8d2b7f5d5556a774afefffddd6a24cc805dd457e2842fed4577b41a5b777ba9c"
+    },
+    "training/microwakeword/adapt_local.py": {
+      "bytes": 8135,
+      "sha256": "0592371a8773b0d52a503dfd9cabc302d53be6d5c8dde0972b1a59b4563f33ec"
+    },
+    "training/microwakeword/dependencies.json": {
+      "bytes": 2280,
+      "sha256": "152b852bec64527b31b0123512fefe54e8660383a38a161ff02187eaf5473f51"
+    },
+    "training/microwakeword/evaluate_native.py": {
+      "bytes": 4985,
+      "sha256": "daa7dac1278ffe55d5b9fb959a07b5784720fee663d83e015d7b731a8da4ec16"
+    },
+    "training/microwakeword/export.py": {
+      "bytes": 2359,
+      "sha256": "60a9fb49c7b2d0fd4e2f0f2db7423c3fb2e7f78c2d926afe110708ea9ed4dc87"
+    },
+    "training/microwakeword/make_public_npz.py": {
+      "bytes": 2807,
+      "sha256": "232e6fd8cb67013c5b48186252f35d66a704a1ad7582ed527702a428da83d306"
+    },
+    "training/microwakeword/mine_local_negatives.py": {
+      "bytes": 4505,
+      "sha256": "5cef2775a3785ab2b6338f7d2c201b378e0a74a0d2886e3efd5185577dad4e79"
+    },
+    "training/microwakeword/prepare_features.py": {
+      "bytes": 9179,
+      "sha256": "4d0f4349bcb297c3e6c02ddc38999536991619de59a44f14ba2182e93dbd0738"
+    },
+    "training/microwakeword/requirements-training.txt": {
+      "bytes": 260,
+      "sha256": "1434c1fbd99928daa52227fc95e9cc1f5ba31c84d2a317eb201e3dbb02a4e2e3"
+    },
+    "training/microwakeword/synthesize.py": {
+      "bytes": 4316,
+      "sha256": "b1db910f36361c2c85b957dd6b05eae2783754f0469568fb56de6942e1bbfbf7"
+    },
+    "training/microwakeword/test_cli_inputs.py": {
+      "bytes": 2651,
+      "sha256": "3c2419005dab560a1c776669e2b04c953b388168525b9ef2957d59be7e618b3d"
+    },
+    "training/microwakeword/test_public_npz.py": {
+      "bytes": 1995,
+      "sha256": "2c30a68476c1ec64afcd12c8504162efd94fd0d4b1cfac80bb7cbf2a2676e593"
+    },
+    "training/microwakeword/train.py": {
+      "bytes": 3451,
+      "sha256": "c3b11ba63846669c0d5ca07355dd442133de84b63527aa88e6b0e15a03df3af0"
+    }
+  },
+  "format": 1,
+  "package": "Orion Phase 1 sanitized source",
+  "privacy_scan": {
+    "findings": 0,
+    "generic_rules": [
+      "device-serial",
+      "email-address",
+      "google-key",
+      "mac-address",
+      "personal-home",
+      "private-key",
+      "private-network",
+      "token-shaped"
+    ],
+    "private_values_checked": true
+  },
+  "scope": "source-only; no deployment or publication performed",
+  "synthetic_audio_only": []
+}

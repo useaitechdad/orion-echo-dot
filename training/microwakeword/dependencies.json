@@ -1,0 +1,30 @@
+{
+  "training_commit": "4665173cd35f1cff9a61e06fc427f124766c488e",
+  "generator_commit": "2971426a55072f7d22fec416ca7800df8bd23207",
+  "runtime_commit": "333da550c54b95192af472cfe37d98dab2f2086e",
+  "tensorflow_training_version": "2.18.1",
+  "tensorflow_c_runtime_version": "2.17.1",
+  "torch_synthesis_version": "2.5.1+cu124",
+  "sources": {
+    "training": "https://github.com/OHF-Voice/micro-wake-word",
+    "generator": "https://github.com/rhasspy/piper-sample-generator",
+    "runtime": "https://github.com/OHF-Voice/pymicro-wakeword",
+    "voice_checkpoint": "https://github.com/rhasspy/piper-sample-generator/releases/download/v2.0.0/en_US-libritts_r-medium.pt",
+    "esc50": "https://github.com/karolpiczak/ESC-50",
+    "librispeech": "https://www.openslr.org/12",
+    "frontend_sdist": "https://files.pythonhosted.org/packages/39/46/328092b4df890385594cf3d3e6015da72d77f63c58d3057276ac2353e891/pymicro_features-2.0.2.tar.gz",
+    "tflite_armhf": "https://raw.githubusercontent.com/OHF-Voice/pymicro-wakeword/333da550c54b95192af472cfe37d98dab2f2086e/lib/linux_armv7l/libtensorflowlite_c.so",
+    "tflite_macos_arm64": "https://raw.githubusercontent.com/OHF-Voice/pymicro-wakeword/333da550c54b95192af472cfe37d98dab2f2086e/lib/darwin_arm64/libtensorflowlite_c.dylib",
+    "tflite_linux_amd64": "https://raw.githubusercontent.com/OHF-Voice/pymicro-wakeword/333da550c54b95192af472cfe37d98dab2f2086e/lib/linux_amd64/libtensorflowlite_c.so"
+  },
+  "files": {
+    "pymicro_features-2.0.2.tar.gz": "0d0bed7843ec78b6ced82d1a2dcddeb4fe5df61b3af80a281d0868c8e279c727",
+    "libtensorflowlite_c-arm.so": "fcb6ef6f3f9c68889868fb55aba544d43d0fe9703c1efeb2756e82b553d032ab",
+    "libtensorflowlite_c.dylib": "e77597b3710e43f58f1c37a9c8979a82901ed9f3a11de71e95f2154a4c9ce6d7",
+    "libtensorflowlite_c-linux-amd64.so": "25465edb5cd7aadd00249d4d28f1d922ce5cc90195ad4403458111dd63493bae",
+    "esc50.zip": "805afc618aff80eff0641d51311647871fead5807da68bb18e43a27db47a79ce",
+    "librispeech-dev-clean.tar.gz": "76f87d090650617fca0cac8f88b9416e0ebf80350acb97b343a85fa903728ab3",
+    "librispeech-test-clean.tar.gz": "39fde525e59672dc6d1551919b1478f724438a95aa55f874b576be21967e6c23",
+    "en_US-libritts_r-medium.pt": "e95ee53770bf598c354a6e6dbfc95ccb259aeeb501d35a86be8a767429ab0ff6"
+  }
+}

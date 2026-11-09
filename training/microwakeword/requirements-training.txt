@@ -1,0 +1,9 @@
+# Install alongside the pinned upstream micro-wake-word checkout.
+# TensorFlow 2.18 requires numpy <2.1. GPU support needs a compatible Linux driver.
+tensorflow[and-cuda]==2.18.1
+numpy>=2.0,<2.1
+pymicro-features==2.0.2
+mmap-ninja==0.9.0
+scipy
+soundfile
+PyYAML

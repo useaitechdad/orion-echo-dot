@@ -1,0 +1,15 @@
+# Install privately as /data/local/tmp/dotty/runtime.conf, root-owned mode 0600.
+# Configuration selects the microWakeWord bundle. Keep keys in a separate file.
+DOTTY_RELEASE=/data/local/tmp/dotty/current
+# REQUIRED: fill with your model's validated probability, 0.5 <= value < 1.
+# Empty fails before services change. No universal threshold is supplied.
+DOTTY_WAKE_THRESHOLD=
+# REQUIRED: verify an available Live model for your project before use.
+DOTTY_MODEL=
+DOTTY_KEY_FILE=/data/local/tmp/dotty/api-key.txt
+DOTTY_CA_FILE=/data/local/tmp/dotty/cert.pem
+DOTTY_WIFI_NETWORK_ID=0
+DOTTY_DNS=auto
+DOTTY_WIRELESS_ADB=0
+# Set to 1 only when required and validated for the selected rooted firmware.
+DOTTY_ALLOW_PERMISSIVE=0

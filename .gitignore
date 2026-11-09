@@ -1,0 +1,27 @@
+# Build products and dependency environments
+/build/
+/bin/
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+# Local credentials, configuration and recordings
+.env*
+*.key
+*.pem
+*api-key*.txt
+runtime.conf
+recordings/
+private/
+*.s16le
+*.wav
+*.flac
+*.log
+# Generated training data and personal models
+*.npz
+*.npy
+*.tflite
+*.h5
+trained_models/
+features*/
+synthetic*/

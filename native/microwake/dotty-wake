@@ -1,0 +1,12 @@
+#!/system/bin/sh
+# Candidate bundle layout: this wrapper beside dotty-microwake, libc/ and lib/.
+# exec preserves helper lifetime/cancellation through the existing Go protocol.
+set -eu
+[ "$#" -eq 2 ] || { echo 'expected model directory and probability threshold' >&2; exit 64; }
+case "$0" in
+    */*) base=${0%/*} ;;
+    *) echo 'invoke helper through its explicit bundle path' >&2; exit 64 ;;
+esac
+exec "$base/libc/ld-linux-armhf.so.3" \
+    --library-path "$base/libc:$base/lib" \
+    "$base/dotty-microwake" "$1" "$2"
