@@ -1,5 +1,7 @@
 # Orion — voice on an Echo Dot
 
+Companion video: [I Upgraded an Old Echo Dot with Gemini Live](https://www.youtube.com/watch?v=F1QI-WroUT8).
+
 Orion runs on a rooted Echo Dot 2 and uses Gemini Live for spoken conversations.
 A small microWakeWord model detects “Hey Orion” locally. Gemini is disconnected
 while waiting; after wake detection or Action, the client opens the conversation.
